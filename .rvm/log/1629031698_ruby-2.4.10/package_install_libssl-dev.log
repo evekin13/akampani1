@@ -1,0 +1,54 @@
+[2021-08-15 13:48:23] requirements_debian_libs_install
+requirements_debian_libs_install () 
+{ 
+    __rvm_try_sudo apt-get --no-install-recommends --yes install "$@" || return $?
+}
+current path: /home/evekin13
+PATH=/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.config/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/evekin13/.rvm/bin
+command(2): requirements_debian_libs_install libssl-dev
+++ __rvm_try_sudo apt-get --no-install-recommends --yes install libssl-dev
+++ typeset -a command_to_run
+++ typeset sudo_path sbin_path missing_paths
+++ command_to_run=("$@")
+++ ((  UID == 0  ))
+++ case "$rvm_autolibs_flag_number" in
+++ is_a_function __rvm_sudo
+++ typeset -f __rvm_sudo
+++ missing_paths=
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /sbin ]]
+++ [[ :/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.config/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/evekin13/.rvm/bin: != *\:\/\s\b\i\n\:* ]]
+++ missing_paths+=:/sbin
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/sbin ]]
+++ [[ :/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.config/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/evekin13/.rvm/bin: != *\:\/\u\s\r\/\s\b\i\n\:* ]]
+++ missing_paths+=:/usr/sbin
+++ for sbin_path in /sbin /usr/sbin /usr/local/sbin
+++ [[ -d /usr/local/sbin ]]
+++ [[ :/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.config/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/evekin13/.rvm/bin: != *\:\/\u\s\r\/\l\o\c\a\l\/\s\b\i\n\:* ]]
+++ missing_paths+=:/usr/local/sbin
+++ [[ -n :/sbin:/usr/sbin:/usr/local/sbin ]]
+++ command_to_run=(/usr/bin/env PATH="${PATH}${missing_paths}" "${command_to_run[@]}")
+++ command_to_run=(__rvm_sudo -p "%p password required for '$*': " "${command_to_run[@]}")
+++ __rvm_sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install libssl-dev'\'': ' /usr/bin/env PATH=/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.config/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/evekin13/.rvm/bin:/sbin:/usr/sbin:/usr/local/sbin apt-get --no-install-recommends --yes install libssl-dev
+++ command sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install libssl-dev'\'': ' /usr/bin/env PATH=/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.config/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/evekin13/.rvm/bin:/sbin:/usr/sbin:/usr/local/sbin apt-get --no-install-recommends --yes install libssl-dev
+++ sudo -p '%p password required for '\''apt-get --no-install-recommends --yes install libssl-dev'\'': ' /usr/bin/env PATH=/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.rbenv/plugins/ruby-build/bin:/home/evekin13/.rbenv/shims:/home/evekin13/.rbenv/bin:/home/evekin13/.config/versions/node/v10.24.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/evekin13/.rvm/bin:/sbin:/usr/sbin:/usr/local/sbin apt-get --no-install-recommends --yes install libssl-dev
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  ruby-build
+Use 'sudo apt autoremove' to remove it.
+Suggested packages:
+  libssl-doc
+The following NEW packages will be installed:
+  libssl-dev
+debconf: delaying package configuration, since apt-utils is not installed
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/1,794 kB of archives.
+After this operation, 8,073 kB of additional disk space will be used.
+Selecting previously unselected package libssl-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 64079 files and directories currently installed.)
+Preparing to unpack .../libssl-dev_1.1.1d-0+deb10u6_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.1.1d-0+deb10u6) ...
+Setting up libssl-dev:amd64 (1.1.1d-0+deb10u6) ...

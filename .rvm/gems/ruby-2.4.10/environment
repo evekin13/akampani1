@@ -1,0 +1,8 @@
+export PATH="/home/evekin13/.rvm/gems/ruby-2.4.10/bin:/home/evekin13/.rvm/gems/ruby-2.4.10@global/bin:/home/evekin13/.rvm/rubies/ruby-2.4.10/bin:$PATH"
+export GEM_HOME='/home/evekin13/.rvm/gems/ruby-2.4.10'
+export GEM_PATH='/home/evekin13/.rvm/gems/ruby-2.4.10:/home/evekin13/.rvm/gems/ruby-2.4.10@global'
+export MY_RUBY_HOME='/home/evekin13/.rvm/rubies/ruby-2.4.10'
+export IRBRC='/home/evekin13/.rvm/rubies/ruby-2.4.10/.irbrc'
+unset MAGLEV_HOME
+unset RBXOPT
+export RUBY_VERSION='ruby-2.4.10'

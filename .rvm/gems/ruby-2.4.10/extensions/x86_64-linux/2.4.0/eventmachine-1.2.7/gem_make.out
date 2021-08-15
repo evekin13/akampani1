@@ -1,0 +1,28 @@
+current directory: /home/evekin13/.rvm/gems/ruby-2.4.10/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/evekin13/.rvm/rubies/ruby-2.4.10/bin/ruby -I /home/evekin13/.rvm/rubies/ruby-2.4.10/lib/ruby/site_ruby/2.4.0 -r ./siteconf20210815-4218-1ptsm8l.rb extconf.rb
+creating Makefile
+
+current directory: /home/evekin13/.rvm/gems/ruby-2.4.10/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/evekin13/.rvm/gems/ruby-2.4.10/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+compiling rubymain.cpp
+cc1plus: warning: command line option ‘-Wimplicit-int’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1plus: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1plus: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+linking shared-object fastfilereaderext.so
+
+current directory: /home/evekin13/.rvm/gems/ruby-2.4.10/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20210815-4218-1gxor1x

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if
+  [[ -s "/home/evekin13/.rvm/gems/ruby-2.4.10/environment" ]]
+then
+  source "/home/evekin13/.rvm/gems/ruby-2.4.10/environment"
+  exec ruby_executable_hooks "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/home/evekin13/.rvm/gems/ruby-2.4.10/environment'" >&2
+  exit 1
+fi
